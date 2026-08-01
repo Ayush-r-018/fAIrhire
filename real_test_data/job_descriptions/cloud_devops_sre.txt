@@ -1,0 +1,69 @@
+Job Title: Cloud Engineer
+
+Company Overview
+
+We are looking for a Cloud Engineer to design, implement, maintain, and optimize cloud infrastructure across AWS, Azure, and Google Cloud Platform. The ideal candidate should possess strong knowledge of cloud services, Infrastructure as Code (IaC), containerization, automation, monitoring, and cloud security.
+
+Key Responsibilities
+
+• Design and deploy scalable cloud infrastructure.
+• Build highly available and fault-tolerant cloud architectures.
+• Manage AWS, Azure, or GCP cloud environments.
+• Develop Infrastructure as Code using Terraform or CloudFormation.
+• Configure Kubernetes clusters and Docker containers.
+• Automate deployments using CI/CD pipelines.
+• Monitor cloud infrastructure using CloudWatch, Datadog, Prometheus, or Grafana.
+• Implement IAM policies and cloud security best practices.
+• Optimize cloud costs and resource utilization.
+• Collaborate with software developers and DevOps teams.
+
+Required Skills
+
+AWS
+Azure
+Google Cloud Platform
+Terraform
+CloudFormation
+Docker
+Kubernetes
+Linux
+Python
+Bash
+Git
+GitHub Actions
+Jenkins
+CI/CD
+IAM
+VPC
+EC2
+Lambda
+S3
+RDS
+CloudWatch
+Networking
+Monitoring
+Infrastructure as Code
+Cloud Security
+
+Preferred Skills
+
+EKS
+AKS
+GKE
+Pulumi
+Ansible
+Helm
+Secrets Manager
+KMS
+Datadog
+Prometheus
+Grafana
+Route53
+CloudFront
+
+Experience
+
+3+ years working with cloud infrastructure.
+Experience designing production-grade cloud systems.
+Knowledge of DevOps practices and Agile development.
+Strong troubleshooting and communication skills.

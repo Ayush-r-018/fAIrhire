@@ -1,0 +1,92 @@
+Anh Nguyen   Senior AWS Engineer
+Sydney, Australia • awseng@gmail.com • +61 2 5550 7184
+PROFILE SUMMARY
+Senior AWS Engineer with 8 years of experience running AWS production environments at consumer SaaS scale across 
+developer collaboration, productivity SaaS, and ITSM platforms, specializing in Well-Architected reviews, EKS on Fargate, 
+and Terraform-driven landing zones.
+Hands-on coverage across compute (EKS on Fargate), IaC (Terraform), CI/CD (GitHub Actions), observability (CloudWatch 
+with Datadog), and serverless (Lambda with Step Functions), with networking grounded in hub-and-spoke Transit Gateway 
+with PrivateLink and certified on AWS Solutions Architect Professional.
+Deep expertise in Well-Architected reviews across all six pillars, multi-account landing zones with Control Tower, event-
+driven serverless with EventBridge and Step Functions, and FinOps tagging and Savings Plans optimization, applying 
+methodologies such as GitOps-style Terraform with reusable modules and remote state and least-privilege IAM with SCPs 
+and permission boundaries to deliver secure, cost-aware AWS estates that hold up under SOC 2 and customer load.
+Engaged collaborator working cross-functionally with Platform, Security, SRE, Product, and Finance teams in multi-
+account, review-heavy cloud platform teams, contributing to architecture review boards, on-call rotations, and cost-review 
+forums with an ownership-first mindset and clean handoffs.
+Mentor who shares technical excellence and fosters a culture of secure, well-tagged AWS infrastructure and cost-aware, 
+Well-Architected practice through PR reviews and module docs, while running the internal AWS guild and architecture 
+review board and authoring widely used Terraform module and landing-zone templates.
+TECHNICAL SKILLS
+Compute & Containers:
+EKS on Fargate, EC2, Lambda, ECS on Fargate, EKS, AWS Batch, App Runner, Lightsail, Auto 
+Scaling, Elastic Load Balancing
+Networking & Edge:
+hub-and-spoke Transit Gateway with PrivateLink, VPC, subnets, route tables, Transit Gateway, 
+PrivateLink, VPC Endpoints, Direct Connect, Site-to-Site VPN, Route 53, CloudFront, Global 
+Accelerator, Security Groups, NACLs
+Identity, Security & Compliance: IAM, IAM Identity Center, SCPs, permission boundaries, KMS, Secrets Manager, WAF, Shield, 
+GuardDuty, Security Hub, AWS Config, CloudTrail, Macie, Inspector, SOC 2, HIPAA, PCI DSS
+Storage & Database:
+S3, EBS, EFS, FSx, RDS, Aurora, DynamoDB, ElastiCache, MemoryDB, OpenSearch, Neptune, 
+DocumentDB, Timestream, AWS Backup, cross-region replication
+Infrastructure as Code:
+Terraform, CloudFormation, AWS CDK (TypeScript, Python), Pulumi, AWS SAM, Terragrunt, 
+Terraform modules, remote state on S3, DynamoDB locking
+CI/CD & Automation:
+GitHub Actions, CodePipeline, CodeBuild, CodeDeploy, CodeCommit, GitLab CI, Jenkins, 
+Systems Manager, Patch Manager, Run Command, Session Manager
+Serverless & Event-Driven:
+Lambda with Step Functions, API Gateway, EventBridge, SQS, SNS, Step Functions, AppSync, 
+Kinesis Data Streams, Amazon MSK, DynamoDB Streams, fan-out, saga
+Observability, Cost & FinOps:
+CloudWatch with Datadog, CloudWatch Logs, CloudWatch Metrics, CloudWatch Alarms, 
+CloudWatch Synthetics, X-Ray, OpenTelemetry, Datadog, New Relic, Grafana, Cost Explorer, 
+AWS Budgets, Savings Plans, Reserved Instances, Spot, Compute Optimizer
+Certifications & Frameworks:
+AWS Solutions Architect Professional, AWS Solutions Architect Associate, AWS DevOps 
+Engineer Professional, AWS Security Specialty, AWS Well-Architected Framework, AWS 
+Organizations, Control Tower, Landing Zone Accelerator, FinOps tagging
+EDUCATION
+University of New South Wales   B.E. in Computer Science (Honours)
+Sydney, Australia • Feb 2014 - Nov 2017
+WORK EXPERIENCE
+Atlassian   Senior AWS Engineer
+Sydney, Australia • Mar 2021 - Present
+Owned AWS architecture and solution design end to end on the cloud platform powering Jira and Confluence on AWS 
+serving 260K paying tenants, shipping EKS workloads, Aurora fleets, and event mesh across 74 AWS accounts reviewed 
+against all six Well-Architected pillars.
+Ran core compute and containers on EKS on Fargate with Karpenter autoscaling and Graviton node groups, blue/green 
+deploys on ECS Fargate for stateful add-ons, and Lambda with provisioned concurrency on latency-critical paths across 
+180 production workloads, pulling Lambda cold-start from 1.8s down to 220ms on the tenant-auth path.
+Owned AWS networking with Transit Gateway hub-and-spoke with PrivateLink and Route 53 Resolver, tightened Security 
+Groups and NACLs on every spoke, layered CloudFront and Global Accelerator on the customer edge, and routed 42 VPCs 
+through private endpoints, cutting NAT egress cost by 63% in the first two quarters.
+Hardened identity, security, and compliance with IAM Identity Center with SCPs, KMS multi-region keys, and GuardDuty 
+plus Security Hub, WAF rules tuned to bot traffic, Secrets Manager rotation on every database, and AWS Config rules bound 
+to permission boundaries, dropping critical findings by 78% and clearing SOC 2 controls at a 100% pass rate across the last 
+two audit windows.
+Designed storage and database services around Aurora PostgreSQL global database with DynamoDB and S3 Intelligent-
+Tiering, EFS for shared workspace state, FSx for legacy file shares, ElastiCache for hot paths, and AWS Backup vaults for 
+cross-region DR across an 14PB S3 estate, cutting Aurora p99 query latency on the search path by 62%.
+Drove infrastructure as code with Terraform with reusable modules, remote state on S3, and CDK for app constructs, 
+CloudFormation for one-off compliance baselines, Terragrunt for environment fan-out, and policy gates with Checkov on 
+every PR, authoring 48 modules and dropping new-account provisioning from 5 days to 35 minutes.
+Ran CI/CD, DevOps, and automation through GitHub Actions with OIDC into AWS, CodeDeploy blue/green, and Systems 
+Manager patching, drift detection on every Terraform plan, and chat-ops runbooks for break-glass scenarios, holding 430 
+deploys per week across the estate at a 1.4% change failure rate.
+Canva   AWS Cloud Engineer
+Sydney, Australia • Dec 2017 - Feb 2021
+Built serverless and event-driven architectures with Lambda with EventBridge, SQS fan-out, and Step Functions saga 
+orchestration, DynamoDB Streams for change capture, Kinesis for analytics ingest, and AppSync for client subscriptions, 
+lifting event throughput from 9k/s to 78k/s across a fleet of 320 production Lambda functions.
+Owned observability and cost management with CloudWatch dashboards with X-Ray traces, Cost Explorer reviews, and 
+Savings Plans coverage, Synthetics canaries on every public endpoint, anomaly alarms tied to PagerDuty, and Compute 
+Optimizer rightsizing on every cycle, pulling incident MTTD from 22 min down to 3 min and cutting monthly AWS spend by 
+34% without slowing release pace.
+Led migration and modernization work using DMS plus Application Migration Service with refactoring waves into 
+containers and Lambda, Snow Family appliances for the heavier media tiers, and AMS-style runbooks for cutover gates, 
+moving 95 workloads off legacy data centers inside an 11 months window with zero customer-visible downtime.
+Stood up multi-account governance through AWS Organizations with Control Tower landing zone, SCP guardrails, and 
+FinOps tagging policy, chargeback dashboards for every product team, and Landing Zone Accelerator blueprints for new 
+business units, onboarding 38 net-new AWS accounts under a single audit-ready posture.

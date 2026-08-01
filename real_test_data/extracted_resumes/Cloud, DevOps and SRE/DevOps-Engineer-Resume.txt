@@ -1,0 +1,64 @@
+Ayush Rauniyar   DevOps 
+Engineer
+Imadol, Mahalaxmi-04, Lalitpur • devops@gmail.com • +977 
+3333-5555
+PROFILE SUMMARY
+DevOps Engineer with 6 years of experience supporting high-traffic e-commerce systems, logistics automation platforms, 
+and internal developer infrastructure, specializing in cloud-native reliability, pipeline automation, and scalable service 
+delivery.
+Solid technical background across infrastructure-as-code (Terraform, Pulumi), container platforms (Kubernetes, ECS), CI/
+CD operations (GitHub Actions, GitLab CI, Jenkins), observability stacks (Prometheus, Grafana, ELK), and cloud 
+ecosystems (AWS, Azure) with strong scripting fundamentals in Python and Bash.
+Well-versed in container lifecycle automation, performance tuning, service deployment patterns, network configuration, 
+secrets management, and environment consistency, using repeatable IaC workflows, GitOps models, and automated 
+release strategies such as canary and blue-green rollouts.
+Collaborative partner working closely with Backend, Data, and Security teams in Agile environments to plan deployments, 
+resolve integration issues, conduct incident reviews, and support architectural decisions for distributed systems.
+TECHNICAL SKILLS
+Cloud Platforms:
+AWS (EKS, ECS, Lambda, RDS, SQS, CloudWatch), Azure (AKS, Storage, Key Vault)
+Infrastructure as Code:
+Terraform, Pulumi, CloudFormation, Helm, Kustomize
+Containers & Orchestration:
+Docker, Kubernetes, ECS, AKS
+CI/CD & Automation:
+GitHub Actions, GitLab CI, Jenkins, ArgoCD
+Scripting & Languages:
+Python, Bash, Go (basic)
+Monitoring & Logging:
+Prometheus, Grafana, ELK Stack, Loki, Jaeger, CloudWatch
+Networking & Security:
+VPC, subnets, ALB/NLB, IAM, TLS, security groups, OIDC, Vault
+Version Control & Tooling:
+Git, GitHub, GitLab, ArgoCD, Artifactory
+EDUCATION
+University of Washington   B.S. in Computer Science
+Seattle, WA • Sep 2015 - Jun 2019
+WORK EXPERIENCE
+Shopify   DevOps Engineer
+San Francisco, CA • Aug 2021 - Present
+Delivered a fully declarative deployment model using Terraform, Kubernetes, Helm, and ArgoCD, designing modular IaC 
+patterns with parameterized state separation, immutable environment baselines, and GitOps reconciliation loops, slashing 
+config drift events by 95% and stabilizing release pipelines for 30+ microservices.
+Engineered a high-throughput CI/CD system using GitHub Actions, GitLab CI, and container layer caching, optimizing build 
+graphs, dependency hydration, and test distribution across parallel runners using dynamic job fans, reducing build times 
+from 14m to 5m (~64%) and doubling deployment throughput during peak hours.
+Tuned Kubernetes workload performance using HPA/VPA policies, pod disruption budgets, resource quantization, and 
+priority classes, combined with Prometheus-driven saturation signals to right-size CPU/memory allocations and trim 
+cluster footprint by 28% while maintaining p99 latency under 180ms during holiday load.
+Implemented progressive delivery via canary batches, header-based routing, and SLI-driven rollback gates using Envoy and 
+OpenTelemetry, enabling automated rollback within 90 seconds when early-stage degradation exceeded error-rate 
+budgets.
+Built a full observability layer using Prometheus, Alertmanager, Loki, Grafana, and Jaeger, instrumenting services with 
+OpenTelemetry traces, RED/USE dashboards, and log correlation indexes, cutting mean diagnostic time from 45m to 8m.
+NexTrade Digital   DevOps Engineer
+Portland, OR • Jul 2019 - Jul 2021
+Developed AWS infrastructure using Terraform, CloudFormation, and ECS, implementing reusable network modules (VPC 
+layout, ALB routing maps, service mesh rules, RDS failover configs) that cut environment provisioning from hours to under 
+20 minutes.
+Created deployment pipelines using Jenkins and GitHub Actions, integrating artifact fingerprinting, pre-deploy smoke jobs, 
+sidecar scanning, and transaction-level health probes, improving deployment reliability by 38% and reducing manual 
+intervention across release cycles.
+Built shell scripts and custom Python/Bash automation for config synchronization, log extraction, secret hydration, and 
+bootstrap routines, eliminating 12-15 hours per sprint of repetitive operational work while raising onboarding speed for 
+new engineers by 50%.

@@ -20,4 +20,13 @@ outputs/
 
 # OS Files
 .DS_Store
-Thumbs.db
+Thumbs.dbdata/processed/
+models/
+outputs/
+*.pkl
+*.csv
+data/processed/
+models/
+outputs/
+*.pkl
+*.csv

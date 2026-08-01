@@ -1,0 +1,78 @@
+Saanvi Nair   Platform Engineer
+Seattle, WA • saanvi.nair@gmail.com • +1 206-555-0142
+PROFILE SUMMARY
+Platform Engineer with 7 years of experience building internal developer platforms across developer tooling, online travel, 
+and SaaS scaleups, specializing in Backstage golden paths, Crossplane abstractions, and multi-tenant Kubernetes 
+operations.
+Solid technical background across developer portals (Backstage), infrastructure as code (Terraform, Crossplane), 
+container platforms (EKS, Istio), CI/CD delivery (ArgoCD, GitHub Actions), observability (OpenTelemetry, Prometheus), and 
+languages (Go, Python) with strong fundamentals in policy-as-code, golden-path design, and multi-tenant reliability.
+Deep expertise in self-service infrastructure, paved-road golden paths, multi-tenant Kubernetes operation, and progressive 
+delivery, leveraging methodologies such as platform-as-product practice and Team Topologies stream-aligned support to 
+drive fast, safe, and self-service developer flow.
+Engaged collaborator working cross-functionally with Application, SRE, and Security teams in platform-as-product 
+environments, contributing to platform RFCs, paved-road governance, and post-incident retrospectives with a user-first, 
+ownership-first mindset.
+Emerging leader who shares technical excellence and fosters a culture of developer-experience obsession and paved-road 
+discipline through RFC reviews and platform office hours, while leading platform-engineering guild sessions and authoring 
+widely adopted golden-path and Crossplane composition templates.
+TECHNICAL SKILLS
+Internal Developer Platform:
+Backstage (Software Catalog, Scaffolder, TechDocs), Port, OpsLevel, golden-path templates, 
+platform portals
+CI/CD & Delivery:
+ArgoCD, Flux, GitHub Actions, Argo Workflows, GitLab CI, progressive delivery (Argo Rollouts, 
+Flagger), feature flags (LaunchDarkly)
+Container & Orchestration:
+Kubernetes (EKS, GKE, AKS), Helm, Kustomize, Istio, Linkerd, Cilium, KubeVela, Karpenter
+Infrastructure as Code:
+Terraform, Pulumi, Crossplane (compositions, providers), Helm, Cluster API, OpenTofu
+Observability:
+OpenTelemetry (SDK + Collector), Prometheus, Grafana, Tempo, Loki, Datadog, Honeycomb, 
+PromQL
+Security & Policy:
+OPA / Rego, Kyverno, External Secrets Operator, Trivy, SBOMs (Syft, Grype), Cosign / Sigstore
+Cloud & Platform APIs:
+AWS (EKS, IAM, EventBridge, S3), GCP (GKE, Pub/Sub), gRPC, OpenAPI, Backstage Software 
+Catalog APIs
+Languages & SDKs:
+Go, Python, TypeScript, Bash, Kubernetes Operator SDK, Helm Charts, Rego
+EDUCATION
+University of Washington   B.S. in Computer Science
+Seattle, WA • Sep 2014 - Jun 2018
+WORK EXPERIENCE
+GitHub   Senior Platform Engineer
+Seattle, WA • Aug 2022 - Present
+Owned the internal developer platform for the Actions and Codespaces engineering org supporting 1,200+ engineers, 
+leading end-to-end design across golden-path templates, service catalog, and runtime abstractions for the build, test, and 
+deploy lifecycle of 620+ production microservices.
+Built the developer portal on Backstage with scaffolder templates, self-service infra requests, and on-call onboarding flows, 
+cutting first-merge-to-prod time for new hires from 3.4 weeks to 6 days and lifting platform NPS from 23 to 58.
+Designed reusable build, test, and deploy pipelines on GitHub Actions and ArgoCD with Argo Rollouts canary deploys, blue/
+green workflow templates, and LaunchDarkly feature-flag gates, cutting CI minutes per PR by 41% and onboarding 180+ 
+services onto progressive delivery with no per-team pipeline work.
+Operated the multi-tenant Kubernetes platform across 14 production EKS clusters with Istio service mesh, applying 
+namespace-as-tenant isolation, Cilium-based pod networking, and mesh-managed mTLS, sustaining 92,000 daily pod 
+starts at 99.97% cluster availability across the past 6 quarters.
+Built self-service infrastructure modules with Terraform and Crossplane exposed as Backstage scaffolder templates, 
+covering Postgres and Redis blueprints, EKS namespace and IAM bindings, and S3 plus EventBridge buses, letting product 
+teams self-serve 95% of infra requests and cutting platform ticket volume by 62%.
+Standardized observability across the org with OpenTelemetry auto-instrumentation, Prometheus and Grafana 
+dashboards, and Tempo plus Loki log/trace correlation, lifting traced-service coverage from 38% to 91% and saving 
+downstream teams an estimated 12 engineer-weeks per quarter.
+Embedded policy-as-code guardrails on OPA with OPA Gatekeeper admission policies, Kyverno image and pod policies, and 
+Sigstore Cosign image signing, blocking 99.1% of non-compliant deploys and clearing zero high-severity findings on the 
+FY24 SOC 2 + SLSA-2 audits.
+Expedia Group   Platform Engineer
+Seattle, WA • Jun 2019 - Jul 2022
+Built a self-service infrastructure provisioning API on top of Terraform Cloud and AWS Service Catalog, exposing Postgres 
+and Redis blueprints, S3 and EKS namespace bundles, and environment-scoped IAM and secrets to 340+ engineers, 
+dropping infra-request lead time from 9 days to 4 hours.
+Re-architected the multi-tenant CI fleet onto Karpenter-backed Kubernetes with Karpenter spot autoscaling, namespace-
+fair CPU and memory quotas, and noisy-neighbor isolation via cgroups v2 across 1,400 runners, sustaining 99.8% CI 
+availability while cutting hourly compute spend by 51%.
+Maintained the central monorepo build system (Bazel + GitHub Actions composite actions) supporting 220+ services, 
+lifting Bazel cache hit rate from 64% to 87% and trimming median PR feedback time from 18 minutes to 7 minutes.
+Worked closely with SRE, Security, and Application Platform partners to coordinate Backstage pilot rollout, golden-path 
+authoring, and on-call rotation design across 80 services in 4 product domains, mentoring 3 new platform engineers 
+through their first on-call rotations and golden-path authoring.

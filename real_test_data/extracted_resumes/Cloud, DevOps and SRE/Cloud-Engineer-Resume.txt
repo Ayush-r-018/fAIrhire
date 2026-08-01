@@ -1,0 +1,69 @@
+Owen Park   Cloud Engineer
+Charlotte, NC • cloud@gmail.com • +1 7045-2222
+PROFILE SUMMARY
+Cloud Engineer with 6 years of experience designing and operating cloud platforms across financial services, ride-sharing, 
+and SaaS workloads, specializing in cloud architecture, infrastructure as code, and cost optimization.
+Solid technical background across clouds (AWS, Azure, GCP), IaC tools (Terraform, CloudFormation), and compute (EKS, 
+Lambda, ECS Fargate) with strong fundamentals in Python and Bash automation.
+Deep expertise in Well-Architected Framework, multi-account organizations, defense-in-depth security, and zero-
+downtime migrations, leveraging methodologies such as landing zones and GitOps to drive scalable, resilient, and cost-
+aware cloud platforms.
+Engaged collaborator working cross-functionally with Application, Security, and Finance teams in Agile environments, 
+contributing to architecture reviews, RFC discussions, and incident retrospectives with a pragmatic, ownership-first 
+mindset.
+Emerging leader who shares technical excellence and fosters a culture of operational excellence and cost discipline 
+through PR reviews and runbooks, while leading cloud guild sessions and authoring widely adopted Terraform module 
+templates.
+TECHNICAL SKILLS
+Cloud Platforms:
+AWS (EC2, EKS, Lambda, RDS, S3, IAM), Azure (AKS, Functions), GCP (GKE)
+Infrastructure as Code:
+Terraform, CloudFormation, Pulumi, Bicep, Ansible
+Compute & Containers:
+EKS, Lambda, ECS Fargate, Docker, Kubernetes
+Networking & CDN:
+VPC, Transit Gateway, Direct Connect, Route 53, CloudFront, VPN
+Security & Identity:
+IAM, KMS, Secrets Manager, GuardDuty, SOC 2, PCI DSS
+Storage & Databases:
+S3, EFS, RDS Aurora, DynamoDB, ElastiCache, Backup & DR
+Observability & FinOps:
+CloudWatch, Datadog, Cost Explorer, Savings Plans, tagging policies
+Automation & CI/CD:
+GitHub Actions, Jenkins, Spinnaker, Python, Bash
+EDUCATION
+Carnegie Mellon University   B.S. in Information Systems
+Pittsburgh, PA • Sep 2015 - May 2019
+WORK EXPERIENCE
+Capital One   Senior Cloud Engineer
+Charlotte, NC • Aug 2022 - Present
+Own the cloud platform for a multi-account AWS Organization spanning 180+ accounts, coordinating architecture reviews, 
+infrastructure as code, and cost and reliability across 220 engineers under the Well-Architected Framework.
+Authored the Terraform module library for account scaffolding and shared services, shipping reusable bootstrap modules, 
+policy-as-code guardrails, and GitOps pipelines via Atlantis across 180+ AWS accounts, cutting per-team provisioning lead 
+time from 3 weeks to 2 days.
+Standardized workload-aware placement across EKS (stateful services), Lambda (event-driven workloads), and ECS 
+Fargate (batch jobs), onboarding 220+ services and cutting compute spend by 34%.
+Designed the multi-region VPC architecture on Transit Gateway hub-and-spoke with Direct Connect circuits and centralized 
+egress through inspection VPCs, connecting 180+ accounts at 62ms p95 cross-region latency with zero unplanned 
+outages over 18 months.
+Drove the FinOps program around a Savings Plan portfolio, org-wide tagging policy enforcement, and rightsizing 
+automation via Compute Optimizer, cutting annual cloud spend by 22% (~$8.4M) while holding all production SLOs.
+Built the unified observability stack on CloudWatch and Datadog, defining SLO dashboards, alert routing, and on-call 
+runbooks for 60+ critical services and reducing mean time to detect from 14 minutes to 90 seconds.
+Led the migration of 40+ legacy applications from on-prem to AWS, defaulting to replatform to ECS Fargate with lift-and-
+shift or event-driven refactor where the workload demanded, including a rebuild of the card-issuance platform that cut 
+infrastructure cost by 46% and lifted deployment frequency by 6x.
+Lyft   Cloud Engineer
+San Francisco, CA • Jul 2019 - Jul 2022
+Designed AWS IAM and KMS strategy across 60+ accounts on least-privilege IAM, customer-managed KMS, and 
+centralized secrets rotation, hardening the platform against SOC 2 Type II and PCI DSS controls and cutting audit findings 
+from 34 to 0 across two consecutive audits.
+Owned the managed-database fleet across RDS Aurora, DynamoDB, and ElastiCache with 80+ clusters, running cross-
+region replication, point-in-time recovery, and quarterly failover drills, cutting database-related production incidents by 58% 
+year over year.
+Built the team's cloud deployment platform on Spinnaker with canary analysis via Kayenta and auto-rollback on SLO 
+breach, operating 180+ pipelines and cutting commit-to-prod lead time from 3 hours to 14 minutes.
+Partnered with Application, Security, and SRE teams across 9 product domains on cloud-account topology, shared-service 
+ownership, and incident response runbooks, authoring 11 cloud-architecture RFCs that shaped the org's landing-zone 
+standard and onboarding 14 cloud engineers.

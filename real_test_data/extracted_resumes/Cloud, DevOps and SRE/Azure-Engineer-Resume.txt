@@ -1,0 +1,100 @@
+Helena Lindgren   Senior Azure 
+Engineer
+Gothenburg, Sweden • azureeng@gmail.com • +46 31 555 
+0184
+PROFILE SUMMARY
+Senior Azure Engineer with 8 years of experience running Azure production environments at connected-vehicle scale 
+across connected vehicles, manufacturing analytics, and automotive retail platforms, specializing in Well-Architected 
+reviews, AKS with Container Apps, and Bicep-driven landing zones.
+Hands-on coverage across compute (AKS with Container Apps), IaC (Bicep with Terraform), CI/CD (Azure DevOps with 
+GitHub Actions), observability (Azure Monitor with Application Insights), and integration (Functions with Service Bus and 
+Event Grid), with networking grounded in hub-and-spoke Virtual WAN with Private Link and certified on Azure Solutions 
+Architect Expert (AZ-305).
+Deep expertise in Well-Architected reviews across all five pillars, CAF enterprise-scale landing zones with Management 
+Groups, event-driven integration with Service Bus and Event Grid, and FinOps tagging and Reservations and Savings Plans 
+optimization, applying methodologies such as GitOps-style Bicep modules with environment-scoped pipelines and least-
+privilege Entra ID with Conditional Access and PIM to deliver secure, cost-aware Azure estates that hold up under ISO 
+27001 and customer load.
+Engaged collaborator working cross-functionally with Platform, Security, SRE, Product, and Finance teams in multi-
+subscription, review-heavy cloud platform teams, contributing to architecture review boards, on-call rotations, and cost-
+review forums with an ownership-first mindset and clean handoffs.
+Mentor who shares technical excellence and fosters a culture of secure, well-tagged Azure infrastructure and cost-aware, 
+Well-Architected practice through PR reviews and module docs, while running the internal Azure guild and architecture 
+review board and authoring widely used Bicep module and landing-zone templates.
+TECHNICAL SKILLS
+Compute & Containers:
+AKS with Container Apps, Azure VMs, VM Scale Sets, App Service, Container Apps, Container 
+Instances, Azure Functions, AKS, Azure Batch, Service Fabric
+Networking & Edge:
+hub-and-spoke Virtual WAN with Private Link, VNets, subnets, route tables, NAT Gateway, 
+VNet peering, Private Link, Service Endpoints, ExpressRoute, Site-to-Site VPN, Application 
+Gateway, Front Door, Azure CDN, Traffic Manager, NSGs, ASGs, Azure Firewall
+Identity, Security & Compliance: Microsoft Entra ID, Conditional Access, PIM, Managed Identities, Key Vault, Defender for 
+Cloud, Microsoft Sentinel, Azure Policy, Blueprints, RBAC, SOC 2, HIPAA, PCI DSS, ISO 27001, 
+FedRAMP
+Storage & Database:
+Azure Blob with lifecycle and tiering, Azure Files, Queues, Tables, Data Lake Gen2, Azure SQL 
+DB, SQL Managed Instance, Cosmos DB, PostgreSQL Flexible Server, MySQL Flexible Server, 
+Cache for Redis, Managed Disks, Ultra Disks, Azure Backup, cross-region replication
+Infrastructure as Code:
+Bicep with Terraform, ARM templates, Pulumi, Terraform modules, remote state on Storage 
+Account, environment-scoped pipelines, what-if previews, Azure Verified Modules
+CI/CD & Automation:
+Azure DevOps with GitHub Actions, Azure DevOps Boards, Repos, Pipelines, Artifacts, Azure 
+Update Manager, Azure Automation, Logic Apps for ops, PowerShell, Azure CLI
+Serverless & Integration:
+Functions with Service Bus and Event Grid, Logic Apps, Service Bus, Event Grid, Event Hubs, 
+Stream Analytics, API Management, Durable Functions, choreography, saga
+Observability, Cost & FinOps:
+Azure Monitor with Application Insights, Log Analytics workspaces, metrics, alerts, Network 
+Watcher, Datadog, New Relic, Grafana, OpenTelemetry, Cost Management and Billing, Azure 
+Advisor, Reservations, Savings Plans, Spot VMs
+Certifications & Frameworks:
+Azure Solutions Architect Expert (AZ-305), Azure Administrator (AZ-104), Azure Developer 
+(AZ-204), Azure DevOps Engineer Expert (AZ-400), Azure Security Engineer (AZ-500), Azure 
+Well-Architected Framework, Cloud Adoption Framework, Management Groups, Enterprise-
+Scale landing zones, FinOps tagging
+EDUCATION
+Chalmers University of Technology   M.Sc. in Computer Science
+Gothenburg, Sweden • Aug 2013 - Jun 2018
+WORK EXPERIENCE
+Volvo Cars   Senior Azure Engineer
+Gothenburg, Sweden • Apr 2021 - Present
+Owned Azure architecture and solution design end to end on the connected-car cloud platform on Azure serving 2.4M 
+connected vehicles, shipping AKS workloads, Cosmos DB fleets, and event mesh across 68 Azure subscriptions reviewed 
+against all five Well-Architected pillars.
+Ran core compute and containers on AKS with KEDA autoscaling, Container Apps for stateless edges, and Functions on 
+Premium plans, blue/green deploys on App Service for stateful add-ons, and Container Instances for batch fan-out across 
+160 production workloads, pulling Function cold-start from 2.1s down to 240ms on the vehicle-telemetry path.
+Owned Azure networking with Virtual WAN hub-and-spoke with Private Link, Azure Firewall, and Application Gateway, 
+tightened NSGs and ASGs on every spoke, layered Front Door and Azure CDN on the customer edge, and routed 38 VNets 
+through private endpoints and Service Endpoints, cutting egress cost by 58% in the first two quarters.
+Hardened identity, security, and compliance with Microsoft Entra ID with Conditional Access, PIM, Key Vault, and Defender 
+for Cloud plus Sentinel, Managed Identities on every workload, Azure Policy initiatives bound to Management Groups, and 
+Sentinel detections tuned to the platform, dropping critical findings by 74% and clearing ISO 27001 controls at a 100% pass 
+rate across the last two audit windows.
+Designed storage and database services around Cosmos DB multi-region with Azure SQL Managed Instance and Blob with 
+lifecycle tiering, Azure Files for shared workspace state, Cache for Redis on hot paths, PostgreSQL Flexible Server for 
+analytics, and Azure Backup vaults for cross-region DR across an 11PB Blob estate, cutting SQL p99 query latency on the 
+telematics path by 57%.
+Drove infrastructure as code with Bicep with Azure Verified Modules, Terraform for cross-cloud edges, and what-if 
+previews on every PR, ARM templates for one-off compliance baselines, Pulumi for app constructs, and policy gates with 
+Checkov on every PR, authoring 52 modules and dropping new-subscription provisioning from 4 days to 40 minutes.
+Ran CI/CD, DevOps, and automation through Azure DevOps Pipelines with OIDC into Azure, GitHub Actions on app repos, 
+and Azure Update Manager for patching, drift detection on every Bicep what-if, and chat-ops runbooks for break-glass 
+scenarios, holding 380 deploys per week across the estate at a 1.6% change failure rate.
+SEB   Azure Cloud Engineer
+Stockholm, Sweden • Jul 2018 - Mar 2021
+Built serverless and integration services with Functions with Service Bus topics, Logic Apps for partner flows, and Durable 
+Functions for saga orchestration, Event Grid for change capture, Event Hubs with Stream Analytics for ingest, and API 
+Management for the partner edge, lifting event throughput from 7k/s to 62k/s across a fleet of 280 production Functions.
+Owned observability and cost management with Azure Monitor workbooks with Application Insights traces, Cost 
+Management reviews, and Reservations coverage, Log Analytics queries on every workload, anomaly alerts wired to 
+PagerDuty, and Azure Advisor rightsizing on every cycle, pulling incident MTTD from 24 min down to 4 min and cutting 
+monthly Azure spend by 31% without slowing release pace.
+Led migration and modernization work using Azure Migrate plus Database Migration Service with refactoring waves into 
+AKS and Functions, App Service Migration Assistant for legacy web tiers, and CAF-style runbooks for cutover gates, 
+moving 86 workloads off legacy data centers inside a 10 months window with zero customer-visible downtime.
+Stood up multi-subscription governance through Management Groups with CAF enterprise-scale landing zones, Azure 
+Policy guardrails, and FinOps tagging, chargeback dashboards for every product team, and Enterprise-Scale blueprints for 
+new business units, onboarding 34 net-new Azure subscriptions under a single audit-ready posture.

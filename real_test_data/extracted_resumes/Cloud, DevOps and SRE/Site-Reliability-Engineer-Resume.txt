@@ -1,0 +1,68 @@
+Riley Tan   Site Reliability Engineer
+San Francisco, CA • sre@gmail.com • +1 4155-2222
+PROFILE SUMMARY
+Site Reliability Engineer with 7 years of experience keeping high-availability production systems online across payments, 
+edge networking, and SaaS infrastructure, specializing in SLO design, incident response, and chaos engineering.
+Solid technical background across languages (Go, Python), observability tools (Prometheus, Grafana, OpenTelemetry), 
+container orchestration (Kubernetes), infrastructure as code (Terraform), chaos engineering (Gremlin, Chaos Mesh), and 
+cloud (AWS, GCP) with strong fundamentals in Bash, Linux, and TCP/IP fundamentals.
+Deep expertise in SLO-driven reliability engineering, error-budget policies, graceful degradation, and progressive delivery, 
+leveraging methodologies such as blameless postmortems and game days to drive reliable, observable, and recoverable 
+production systems.
+Engaged collaborator working cross-functionally with Engineering, Product, and Support teams in Agile environments, 
+contributing to architecture reviews, error-budget meetings, and post-incident retrospectives with a pragmatic, ownership-
+first mindset.
+Emerging leader who shares technical excellence and fosters a culture of reliability-first thinking and operational discipline 
+through PR reviews and runbooks, while leading reliability guild sessions and authoring widely adopted production-
+readiness checklists.
+TECHNICAL SKILLS
+Observability & Monitoring:
+Prometheus, Grafana, OpenTelemetry, Datadog, ELK, PagerDuty
+Languages & Scripting:
+Go, Python, Bash, SQL
+Container Orchestration:
+Kubernetes, Docker, Helm, Istio, Argo Rollouts
+IaC & Configuration:
+Terraform, Ansible, Helm, ArgoCD, Crossplane
+Chaos & Performance Testing:
+Gremlin, Chaos Mesh, k6, JMeter, Vegeta
+Cloud Platforms:
+AWS (EKS, RDS, Lambda, Route 53), GCP (GKE, Pub/Sub)
+CI/CD & Release:
+GitHub Actions, Spinnaker, Argo Rollouts, Flagger
+Incident & On-Call:
+PagerDuty, Statuspage, Slack workflows, runbook automation
+EDUCATION
+University of California, Berkeley   B.S. in Computer Science
+Berkeley, CA • Sep 2015 - May 2019
+WORK EXPERIENCE
+Stripe   Senior Site Reliability Engineer
+San Francisco, CA • Sep 2021 - Present
+Own end-to-end reliability for payment processing services supporting $1T+ annual GMV, leading architecture reviews, 
+production readiness, and on-call rotations across 40+ microservices in a polyglot AWS environment.
+Defined and rolled out the SLI/SLO framework for 35 customer-facing services covering availability, latency, and freshness, 
+introducing multi-window burn-rate alerts and error-budget review meetings that cut paging volume by 48% and held all 
+tier-1 services at 99.95% monthly availability.
+Served as incident commander across 18 SEV1/SEV2 outages, coordinating mitigation across Engineering, Support, and 
+Customer Success teams with runbook automation and decision-tree triage, cutting mean time to mitigate from 42 
+minutes to 11 minutes.
+Built the unified observability platform on Prometheus, Grafana, and OpenTelemetry, defining SLO dashboards, trace-driven 
+alerting, and routing policies across 40+ services, reducing alert fatigue (median pages per week dropped from 34 to 8).
+Reduced team toil from 43% to 18% through certificate-rotation operators, self-healing DB failover drills, and capacity-
+rebalancing automation, reclaiming 600+ engineer-hours per quarter of repetitive operational work.
+Owned capacity planning for the payments tier, running k6 load tests, defining EKS autoscaling policies, and authoring 
+headroom-budget reviews that absorbed a 5x Black-Friday traffic surge with zero degradation.
+Established the chaos-engineering practice on Gremlin and Chaos Mesh, running 22 game days covering region-failure 
+simulations, dependency outages, and partial Kubernetes node failures, surfacing 47 reliability gaps and validating 
+quarterly DR plans.
+Cloudflare   Site Reliability Engineer
+Austin, TX • Aug 2019 - Aug 2021
+Facilitated the blameless postmortem program across 30+ production incidents, driving action-item tracking and a weekly 
+incident review board, lifting close rate from 42% to 88% within two quarters.
+Defined the production readiness review process for 24 internal services, codifying canary rollouts, automated rollback 
+triggers, and safe-deploy gates, reducing change-failure rate from 6.4% to 1.1%.
+Owned production operations for CDN edge caching including runbooks, DR drills, and change management across 190+ 
+POPs globally, partnering with Security and Networking to harden against operational risk.
+Worked closely with Engineering, Product, and Support teams across 5 product surfaces to negotiate error-budget 
+policies, paging severity thresholds, and incident-response standards, authoring 9 reliability RFCs that shaped the org's 
+reliability-first roadmap and onboarding 12 new SREs.

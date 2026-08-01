@@ -1,0 +1,71 @@
+Avery Brooks   Infrastructure Engineer
+New York, NY • infra@gmail.com • +1 6465-3333
+PROFILE SUMMARY
+Infrastructure Engineer with 7 years of experience designing and operating internal developer platforms across consumer-
+internet platforms, content delivery, and developer tooling, specializing in Kubernetes platforms, infrastructure as code, 
+and reliability engineering.
+Solid technical background across cloud (AWS, GCP), IaC tools (Terraform, Pulumi), container orchestration (Kubernetes, 
+Helm + Istio), CI/CD (GitHub Actions, ArgoCD), and languages (Go, Python) with strong fundamentals in Linux internals, 
+networking, and Bash automation.
+Deep expertise in internal developer platforms, Kubernetes-native architecture, GitOps workflows, and zero-downtime 
+deployments, leveraging methodologies such as golden paths and paved roads to drive scalable, secure, and cost-efficient 
+infrastructure platforms.
+Engaged collaborator working cross-functionally with Application, Security, and Finance teams in Agile environments, 
+contributing to architecture reviews, platform-roadmap discussions, and post-incident retrospectives with a pragmatic, 
+ownership-first mindset.
+Emerging leader who shares technical excellence and fosters a culture of platform thinking and developer-experience 
+focus through PR reviews and runbooks, while leading infrastructure guild sessions and authoring widely adopted 
+Terraform module templates.
+TECHNICAL SKILLS
+Cloud Platforms:
+AWS (EKS, EC2, RDS, S3, IAM), GCP (GKE, Cloud SQL), Azure (AKS)
+Infrastructure as Code:
+Terraform, Pulumi, CloudFormation, Ansible, Helm
+Containers & Orchestration:
+Kubernetes, Docker, Helm, Istio, Argo Rollouts
+CI/CD & Delivery:
+GitHub Actions, ArgoCD, GitLab CI, Jenkins, Flux
+Networking & Connectivity:
+VPC, Transit Gateway, Route 53, CloudFront, VPN, BGP
+Security & IAM:
+IAM, Vault, KMS, Trivy, SOC 2, ISO 27001
+Observability & Monitoring:
+Prometheus, Grafana, OpenTelemetry, Datadog, ELK, Loki
+Languages & Scripting:
+Go, Python, Bash, SQL, YAML
+EDUCATION
+University of Michigan   B.S. in Computer Science
+Ann Arbor, MI • Sep 2014 - May 2018
+WORK EXPERIENCE
+Reddit   Senior Infrastructure Engineer
+New York, NY • Sep 2022 - Present
+Own the end-to-end infrastructure platform for content-serving services at 15M+ DAU, leading design across cloud 
+architecture, container orchestration, and CI/CD for 80+ microservices in a polyglot AWS + GCP environment.
+Authored the Terraform and Pulumi module library for cluster, network, and database provisioning, shipping reusable 
+bootstrap modules, policy-as-code via Sentinel, and drift-detection automation, cutting per-team onboarding lead time 
+from 2 weeks to 1 day across 40+ engineering teams.
+Built the CI/CD platform on GitHub Actions and ArgoCD with GitOps deployment, progressive delivery via Flagger, and 
+automated rollback on SLO breach, operating 220+ pipelines and cutting commit-to-prod lead time from 4 hours to 18 
+minutes.
+Operated Kubernetes clusters across 3 regions with Istio service mesh, Helm chart standardization, and horizontal pod 
+autoscaling, supporting 80+ services with 99.95% control-plane availability.
+Designed the multi-cloud VPC architecture on Transit Gateway peering with service discovery via HashiCorp Consul and 
+centralized ingress hardening through WAF and inspection VPCs, connecting 40+ accounts at 62ms p95 cross-cloud 
+latency.
+Implemented the multi-cloud IAM strategy on least-privilege roles, secrets management via HashiCorp Vault, and container 
+image scanning via Trivy, meeting SOC 2 Type II and ISO 27001 controls and reducing audit findings from 28 to 0 across 
+two consecutive cycles.
+Established the SLI/SLO program for 20 tier-1 services, defining EKS autoscaling policies, load testing via k6, and quarterly 
+capacity-headroom reviews that absorbed a 3.5x holiday traffic surge with zero degradation.
+Pinterest   Infrastructure Engineer
+San Francisco, CA • Jul 2019 - Aug 2022
+Built the unified observability stack on Prometheus and Grafana, defining SLO dashboards, distributed tracing, and 
+structured logging for 45 services and reducing mean time to detect from 22 minutes to 2 minutes.
+Served as on-call rotation lead for the platform team, coordinating 35 SEV1/SEV2 incidents and facilitating the team's 
+blameless postmortem program with action-item tracking and a weekly incident review board, lifting close rate from 48% 
+to 91% within three quarters.
+Drove the FinOps program around a Reserved Instance and Savings Plan portfolio, org-wide tagging policy, and rightsizing 
+automation via Cloud Custodian, cutting annual cloud spend by 24% (~$5.2M) without service-level impact.
+Partnered with Application, Security, and Finance teams across 6 product domains on platform standards, compliance 
+controls, and cost-allocation policies, authoring 9 platform RFCs that shaped the org's golden-path rollout and onboarding 
+13 new infrastructure engineers.

@@ -1,0 +1,5 @@
+Model,Accuracy
+XGBoost,0.9413333333333334
+Random Forest,0.9368333333333333
+Linear SVM,0.9363
+Logistic Regression,0.9322
