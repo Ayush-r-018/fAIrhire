@@ -1,0 +1,61 @@
+================================================================================
+JOB TITLE: Data Engineer (3+ Years Experience)
+================================================================================
+
+COMPANY OVERVIEW
+We are seeking a skilled Data Engineer with at least 3 years of hands-on 
+experience to design, construct, test, and maintain robust data architectures 
+and automated pipelines. In this role, you will be responsible for transforming 
+raw, multi-source data into clean, production-ready datasets that power our 
+enterprise analytics, business intelligence dashboards, and predictive machine 
+learning models. The ideal candidate excels in building scalable ETL/ELT 
+workflows, optimizing complex SQL queries, and managing modern cloud data 
+platforms.
+
+--------------------------------------------------------------------------------
+KEY RESPONSIBILITIES
+--------------------------------------------------------------------------------
+• Pipeline Engineering: Design, build, and deploy reliable batch and near-real-time 
+  ETL/ELT pipelines to ingest structured and unstructured data from disparate sources.
+• Cloud Data Architecture: Construct and optimize scalable data warehouses, data 
+  lakes, and lakehouses using AWS (Redshift/Glue), Azure (Synapse/ADF), or GCP (BigQuery).
+• Data Modeling: Architect efficient relational and analytical data models using Star 
+  and Snowflake schema designs tailored for high-performance querying.
+• Pipeline Orchestration: Programmatically schedule, monitor, and automate workflow 
+  dependencies using Apache Airflow or native cloud orchestrators.
+• Performance Optimization: Profile, tune, and optimize database indexing, partition 
+  strategies, and PySpark execution jobs to reduce latency and infrastructure costs.
+• Quality & Governance: Implement rigorous automated data validation, quality checks, 
+  error handling, and schema drift monitoring.
+• Technical Collaboration: Partner closely with Data Scientists, Analytics Engineers, 
+  and DevOps teams to deliver clean, well-documented data products.
+
+--------------------------------------------------------------------------------
+REQUIRED SKILLS & TECHNOLOGIES
+--------------------------------------------------------------------------------
+• Core Languages: Python, Advanced SQL (Window Functions, CTEs, Query Optimization), Bash.
+• Big Data & Frameworks: Apache Spark (PySpark), Databricks, Delta Lake.
+• Cloud Data Platforms: AWS (S3, Redshift, Glue, EMR) / Azure (ADF, Databricks, Synapse) / GCP (BigQuery, Dataflow).
+• Data Modeling: Data Warehousing concepts, Star Schema, Snowflake Schema, Dimensional Modeling.
+• Workflow Orchestration: Apache Airflow, Prefect, or Cloud Composer.
+• Databases: PostgreSQL, MySQL, MongoDB, DynamoDB.
+• Version Control & CI/CD: Git, GitHub Actions, Docker.
+
+--------------------------------------------------------------------------------
+PREFERRED SKILLS
+--------------------------------------------------------------------------------
+• dbt (data build tool) for in-warehouse data transformation.
+• Streaming Technologies: Apache Kafka, AWS Kinesis, or Spark Structured Streaming.
+• Infrastructure as Code: Terraform.
+• Data Quality Frameworks: Great Expectations or Soda.
+• Data Governance: Cataloging (DataHub, Alation) and Access Control.
+• Visualizations: Experience supporting BI tools like PowerBI, Tableau, or Looker.
+
+--------------------------------------------------------------------------------
+EXPERIENCE & QUALIFICATIONS
+--------------------------------------------------------------------------------
+• Minimum 3+ years of dedicated professional experience as a Data Engineer or Data Architect.
+• Proven track record of designing and maintaining production-grade ETL/ELT data pipelines at scale.
+• Strong experience writing production-quality Python code and highly complex SQL queries.
+• Solid background in cloud-native data services and big data processing frameworks.
+• Excellent analytical problem-solving skills and ability to troubleshoot pipeline failures efficiently.
